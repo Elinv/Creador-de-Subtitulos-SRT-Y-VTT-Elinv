@@ -87,7 +87,7 @@
 .subtitulos {
     grid-area: subtitulos;
     padding: 10px;
-    margin-top: 1.4em;    
+    margin-top: 1.4em;
 }
 
 .arraySubTit {
@@ -95,7 +95,7 @@
     padding: 10px;
     width: 100%;
     max-width: 1000px;
-    margin-top: 1.4em;    
+    margin-top: 1.4em;
 }
 
 /* ------------------------------------------- */
@@ -322,7 +322,7 @@ video::-webkit-media-text-track-display {
 
 .tooltipOut:hover .top {
     display: block;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #000000;
 }
 
@@ -351,3 +351,29 @@ video::-webkit-media-text-track-display {
     left: -4.5em;
     top: 3em;
 }
+
+
+/* Influir movil landscape  */
+#aviso-movil-horizontal {
+    display: none;
+}
+
+@media only screen and (orientation:portrait) {
+    #wrapper {
+        display: none;
+    }
+
+    #aviso-movil-horizontal {
+        display: block;
+    }
+}
+
+@media only screen and (orientation:landscape) {
+    #aviso-movil-horizontal {
+        display: none;
+    }
+    #wrapper {
+        width: 1980px;
+    }
+}
+/* Influir movil landscape  */

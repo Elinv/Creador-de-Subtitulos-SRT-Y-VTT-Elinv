@@ -5,15 +5,32 @@
 Regalo Elinv a las Plataformas de Video. Regalo a los Youtubers, a los influencers del mundo.
 =============================================================================================
 
-# Como comenzar...
+> Su funcionamiento esta direccionado
+> preferentemente a plataforma PC
+> no a plataforma MOVIL.
+> 
+> ---
+> 
+> Aunque le he estado dando
+> una forma aceptable
+> y parece funcionar.
+> 
+> Habría que ver
+> en diferentes
+> plataformas móviles.
+> 
+> ---
+> 
+> Para verlo en funcionamiento offline,
+> en tu propia PC
+
+# comenzar...
 
 - Clonan el respositorio.
 
 ## preferentemente...
 
-- en línea de comandos,
-- en el directorio que contiene los archivos,
-- ejecutar: 'php -S localhost:8000'
+- y ejecutan: 'index.html'
 - 
 - Título : `Creador de Subtítulos SRT y VTT ~ Elinv`
 - Autor :  `Elinv`
